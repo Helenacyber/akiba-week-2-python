@@ -1,3 +1,5 @@
+#A palindrome is a word, phrase, number, 
+# or sequence that reads the same forwards and backwards.
 word = input('Enter a word: ')
 word_list = []
 for letter in word:
