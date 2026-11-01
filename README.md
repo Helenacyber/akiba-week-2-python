@@ -35,9 +35,10 @@
 
 All programs are written in **Python 3**. Make sure Python 3 is installed:
 
- Check it on tge terminal whether python is installed or not using the the bash :
+ Check it on the terminal whether python is installed or not using the the bash :
      ```bash
           python --version
+          ```
 after writting Your code 
 Then write in the vscode terminal  "python filename.py" so as to run your code.
 finally unless error u will see the output of your code.
