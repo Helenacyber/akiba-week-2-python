@@ -2,7 +2,7 @@
 
 ## Student Information
 
-- **Name:** Helen
+- **Name:** Helen Brhane
 - **Course:** Python Programming
 - **Week:** 2
 
