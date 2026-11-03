@@ -4,3 +4,5 @@
 
 n = int(input('Enter a positive number: '))
 num_range = range(n)
+even_list = []
+odd_list = []
