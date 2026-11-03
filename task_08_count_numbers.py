@@ -8,4 +8,11 @@ if n <= 0:
 num_range = range(n)
 even_list = []
 odd_list = []
-total_sum  = 0
+total_sum  =0
+
+for num in num_range:
+   total_sum += num
+   if num % 2 == 0:
+      even_list.append(num)
+   else:
+      odd_list.append(num)
