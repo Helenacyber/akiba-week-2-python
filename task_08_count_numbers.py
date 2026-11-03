@@ -16,3 +16,7 @@ for num in num_range:
       even_list.append(num)
    else:
       odd_list.append(num)
+
+print(f'The total Sum is : {total_sum}')
+print(f'The total number of even nembers in the range is: {len(even_list)}')
+print(f'The total number of odd nembers in the range is: {len(odd_list)}')
