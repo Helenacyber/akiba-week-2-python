@@ -14,3 +14,13 @@ print("=" * 30)
 while guess != secret_number and attempts < max_attempts:
     guess = int(input(f"Guess a number between 1 and 100: "))
     attempts += 1
+
+    if guess < secret_number:
+        print("Too low! Try again.")
+    elif guess > secret_number:
+        print("Too high! Try again.")
+    else:
+        print(f"Congratulations! You've guessed the secret number {secret_number} in {attempts} attempts.")
+        print("Number of attempts:", attempts)
+        break
+
