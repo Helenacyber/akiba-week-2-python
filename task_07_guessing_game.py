@@ -24,3 +24,6 @@ while guess != secret_number and attempts < max_attempts:
         print("Number of attempts:", attempts)
         break
 
+if guess != secret_number:
+    print(f"Sorry, you've used all {max_attempts} attempts. The secret number was {secret_number}.")
+    
