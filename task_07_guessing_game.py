@@ -20,10 +20,13 @@ while guess != secret_number and attempts < max_attempts:
     elif guess > secret_number:
         print("Too high! Try again.")
     else:
+        print("=" * 30)
         print(f"Congratulations! You've guessed the secret number {secret_number} in {attempts} attempts.")
         print("Number of attempts:", attempts)
+        print("=" * 30)
         break
 
 if guess != secret_number:
+    print("=" * 30)
     print(f"Sorry, you've used all {max_attempts} attempts. The secret number was {secret_number}.")
-    
+    print("=" * 30)
