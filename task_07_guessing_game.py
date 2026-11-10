@@ -6,3 +6,8 @@ attempts = 0
 range_size = 99
 max_attempts = 5
 
+print("=" * 30)
+print("Welcome to the Guessing Game!")
+print("=" * 30)
+
+
