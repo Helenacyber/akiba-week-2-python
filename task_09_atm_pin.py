@@ -16,11 +16,11 @@ while attempts < max_attempt:
       if len(guessed_pin) != 4:
           print(f"⚠️ PIN must be exactly 4 digits. You entered {len(guessed_pin)}.\n")
           continue  
-      
+      if guessed_pin == atm_pin:
+            print("Correct PIN. Access granted.")
+            break
       else:
             attempts += 1
             remaining = max_attempt - attempts
             print("Incorrect PIN.")
             print(f"Attempts remaining: {remaining}")
-
-    
