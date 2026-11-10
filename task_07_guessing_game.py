@@ -11,3 +11,6 @@ print("Welcome to the Guessing Game!")
 print("=" * 30)
 
 
+while guess != secret_number and attempts < max_attempts:
+    guess = int(input(f"Guess a number between 1 and 100: "))
+    attempts += 1
