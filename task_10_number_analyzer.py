@@ -20,3 +20,10 @@ total = sum(num_list)
 avg = sum(num_list) / len(num_list)
 even_list = [num for num in num_list if num % 2 == 0]
 odd_list = [num for num in num_list if num % 2 != 0]
+
+print(f"The largest number is: {largest}")
+print(f"The smallest number is: {smallest}")
+print(f"The total sum is: {total}")
+print(f"The average : {avg}")
+print(f"Number of even numbers: {len(even_list)}")
+print(f"The number of Odd numbers: {len(odd_list)}")
