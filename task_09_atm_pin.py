@@ -24,3 +24,6 @@ while attempts < max_attempt:
             remaining = max_attempt - attempts
             print("Incorrect PIN.")
             print(f"Attempts remaining: {remaining}")
+
+if attempts == max_attempt:
+    print("Card blocked. Too many incorrect attempts.")    
